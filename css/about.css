@@ -20,3 +20,45 @@
     height: auto;
     z-index: -1;
 }
+
+@media (min-aspect-ratio:16/9) 
+{
+    .video-background {
+    width: 100%;
+    height: auto; 
+    }
+}
+
+@media (max-aspect-ratio:16/9) 
+{
+    .video-background {
+    width: auto;
+    height: 100%; 
+    }
+}
+
+.thankyou-msg {
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color: #fff;
+    top: 150px;
+
+}
+.thankyou-msg h1 {
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding: 4rem;
+}
+
+.btn  {
+    font-size: 18px;
+    color: #fff;
+    margin: 5px;
+    padding: 3rem;
+    text-decoration: none;
+
+
+}
