@@ -5,7 +5,7 @@
 }
 
 .header {
-    /* background: rgba(0, 0, 100, 0.4) */
+    background: rgba(0, 0, 100, 0.4);
     height: 100vh;
     
 }
@@ -20,7 +20,7 @@
     height: auto;
     z-index: -1;
 }
-
+/* Handles the aspect ratio */
 @media (min-aspect-ratio:16/9) 
 {
     .video-background {
@@ -36,21 +36,20 @@
     height: 100%; 
     }
 }
-
 .thankyou-msg {
     position: relative;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     color: #fff;
-    top: 200px;
+    top: 20px;
 
 }
 .thankyou-msg h1 {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 100;
     letter-spacing: 5px;
-    padding: 30px;
+    padding: 10px;
 }
 
 .btn  {
@@ -60,10 +59,22 @@
     padding: 5px 22px;
     text-decoration: none;
     border: 1px solid #8c9b9e;
-    border-radius: 25px;
+    border-radius: 30px;
 }
 
-.btn-home, .btn-contact {
+.btn-home  {
     background: rgba(62, 106, 116, .8);
 }
 
+.btn-contact {
+    background: rgba(62, 106, 116, .8);
+}
+.video {
+    position: absolute;
+    top: 300px;
+    left: 345px;
+    width: auto;
+    
+    
+
+}
